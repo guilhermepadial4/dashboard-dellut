@@ -313,7 +313,7 @@ const FEV = [
 ];
 
 // ════════════════════════════════════════════════════
-// DADOS COMPLETOS — MARÇO (191 registros)
+// DADOS REAIS — MARÇO (191 registros)
 // ════════════════════════════════════════════════════
 const MAR = [
   // 02/03
@@ -372,6 +372,7 @@ const MAR = [
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   // 12/03
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
@@ -401,22 +402,19 @@ const MAR = [
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 3, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Rede", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Rede", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Rede", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Rede", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 3, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   // 17/03
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Servidor", fin: "Sim", h: 0.75, ana: "Guilherme" },
@@ -473,16 +471,63 @@ const MAR = [
   { cat: "Configurações", fin: "Sim", h: 2, ana: "Guilherme" },
   { cat: "Hardware", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "EntraID", fin: "Sim", h: 0.75, ana: "Guilherme" },
-  // 27/03 — 37 instalações QGIS + extras
+  // 27/03
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
-  ...Array(37)
-    .fill(null)
-    .map(() => ({ cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" })),
+  // 37 instalações QGIS
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  // 30/03
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  // 31/03
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Exchange", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Exchange", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
 ];
 
 // ════════════════════════════════════════════════════
