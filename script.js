@@ -528,6 +528,7 @@ const MAR = [
   { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme"},
 ];
 
 // ════════════════════════════════════════════════════
