@@ -2,18 +2,17 @@
   --bg: #faf8f5;
   --card: #ffffff;
   --card2: #f5f0eb;
-  --accent: #003366; /* Azul escuro da logo TGT */
-  --accent2: #00509e; /* Um tom de azul um pouco mais claro */
-  --accent3: #66cc33; /* Verde da logo TGT */
-  --accent4: #339900; /* Um tom de verde mais escuro */
-  --accent5: #ff6600; /* Um laranja para contraste, se necessário */
+  --accent: #9b1b1b;
+  --accent2: #7a1414;
+  --accent3: #27ae60;
+  --accent4: #d4880a;
+  --accent5: #c0392b;
   --text: #3d3d3d;
   --muted: #8a8480;
   --border: #e8e2db;
-  --jan: #003366; /* Azul escuro */
-  --feb: #00509e; /* Azul médio */
-  --mar: #66cc33; /* Verde claro */
-  --abr: #339900; /* Verde escuro */
+  --jan: #9b1b1b;
+  --feb: #c0392b;
+  --mar: #2980b9;
 }
 
 * {
@@ -25,7 +24,7 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: "Segoe UI", system-ui, sans-serif; /* Mantendo a fonte atual */
+  font-family: "Segoe UI", system-ui, sans-serif;
   overflow-x: hidden;
 }
 
@@ -87,7 +86,7 @@ header {
   white-space: nowrap;
 }
 .period-pill span {
-  color: #e0e0e0; /* Um tom mais claro para o texto do período */
+  color: #ffd5d5;
   font-weight: 800;
 }
 
@@ -132,7 +131,7 @@ header {
 }
 .kpi:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 22px rgba(0, 51, 102, 0.13); /* Usando o novo accent azul */
+  box-shadow: 0 8px 22px rgba(155, 27, 27, 0.13);
 }
 .kpi::after {
   content: "";
@@ -153,10 +152,10 @@ header {
   background: var(--accent4);
 }
 .kpi.c4::after {
-  background: var(--accent2); /* Usando um dos azuis */
+  background: #2980b9;
 }
 .kpi.c5::after {
-  background: var(--accent5); /* Usando o laranja */
+  background: #7d3c98;
 }
 
 .kpi-lbl {
@@ -189,25 +188,22 @@ header {
   color: var(--accent);
 }
 .kpi.c2 .kpi-val {
-  color: var(--accent3);
+  color: #219a52;
 }
 .kpi.c3 .kpi-val {
   color: var(--accent4);
 }
 .kpi.c4 .kpi-val {
-  color: var(--accent2);
+  color: #2471a3;
 }
 .kpi.c5 .kpi-val {
-  color: var(--accent5);
+  color: #7d3c98;
 }
 
 /* ── MONTH CARDS ─────────────────────────── */
 .month-row {
   display: grid;
-  grid-template-columns: repeat(
-    4,
-    1fr
-  ); /* Adicionado mais uma coluna para Abril */
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -229,9 +225,6 @@ header {
 .mcard.mar {
   border-top-color: var(--mar);
 }
-.mcard.abr {
-  border-top-color: var(--abr); /* Cor para Abril */
-}
 
 .mcard-title {
   font-size: 0.72rem;
@@ -248,9 +241,6 @@ header {
 }
 .mcard.mar .mcard-title {
   color: var(--mar);
-}
-.mcard.abr .mcard-title {
-  color: var(--abr);
 }
 
 .mstat {
@@ -401,7 +391,7 @@ header {
   border-bottom: none;
 }
 .tbl tr:hover td {
-  background: rgba(0, 51, 102, 0.04); /* Usando o novo accent azul */
+  background: rgba(155, 27, 27, 0.04);
 }
 
 .pill {
@@ -413,20 +403,16 @@ header {
   white-space: nowrap;
 }
 .pill.jan {
-  background: rgba(0, 51, 102, 0.11);
-  color: var(--jan);
+  background: rgba(155, 27, 27, 0.11);
+  color: #9b1b1b;
 }
 .pill.feb {
-  background: rgba(0, 80, 158, 0.11);
-  color: var(--feb);
+  background: rgba(192, 57, 43, 0.11);
+  color: #c0392b;
 }
 .pill.mar {
-  background: rgba(102, 204, 51, 0.11);
-  color: var(--mar);
-}
-.pill.abr {
-  background: rgba(51, 153, 0, 0.11);
-  color: var(--abr);
+  background: rgba(41, 128, 185, 0.11);
+  color: #2471a3;
 }
 
 /* ── FOOTER ──────────────────────────────── */
@@ -456,12 +442,6 @@ a {
 @media (max-width: 1100px) {
   .kpi-row {
     grid-template-columns: repeat(3, 1fr);
-  }
-  .month-row {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* Ajuste para 2 colunas em tablets */
   }
 }
 
