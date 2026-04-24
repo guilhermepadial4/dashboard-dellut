@@ -432,6 +432,10 @@ footer span {
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ══════════════════════════════════════════
    RESPONSIVO — TABLET (≤ 1100px)
 ══════════════════════════════════════════ */
