@@ -14,6 +14,7 @@
   --feb: #c0392b;
   --mar: #2980b9;
   --abr: #d35400;
+  --mai: #16a085;
 }
 
 * {
@@ -41,35 +42,30 @@ header {
   gap: 12px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
 }
-
 .hd-left {
   display: flex;
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
 }
-
 .hd-logo {
   height: 48px;
   width: auto;
   object-fit: contain;
   flex-shrink: 0;
 }
-
 .hd-divider {
   width: 1px;
   height: 36px;
   background: var(--border);
   flex-shrink: 0;
 }
-
 .hd-text h1 {
   font-size: 1rem;
   font-weight: 700;
   color: var(--accent);
   letter-spacing: 0.02em;
 }
-
 .hd-text p {
   font-size: 0.72rem;
   color: var(--muted);
@@ -117,7 +113,6 @@ header {
   gap: 14px;
   margin-bottom: 24px;
 }
-
 .kpi {
   background: var(--card);
   border: 1px solid var(--border);
@@ -204,11 +199,10 @@ header {
 /* ── MONTH CARDS ─────────────────────────── */
 .month-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr); /* ← era 4, agora 5 */
   gap: 14px;
   margin-bottom: 24px;
 }
-
 .mcard {
   background: var(--card);
   border: 1px solid var(--border);
@@ -229,6 +223,9 @@ header {
 .mcard.abr {
   border-top-color: var(--abr);
 }
+.mcard.mai {
+  border-top-color: var(--mai);
+}
 
 .mcard-title {
   font-size: 0.72rem;
@@ -248,6 +245,9 @@ header {
 }
 .mcard.abr .mcard-title {
   color: var(--abr);
+}
+.mcard.mai .mcard-title {
+  color: var(--mai);
 }
 
 .mstat {
@@ -291,7 +291,6 @@ header {
   min-width: 0;
   overflow: hidden;
 }
-
 .chart-card h3 {
   font-size: 0.84rem;
   font-weight: 700;
@@ -302,7 +301,6 @@ header {
   color: var(--text);
   letter-spacing: 0.01em;
 }
-
 .dot {
   width: 8px;
   height: 8px;
@@ -310,7 +308,6 @@ header {
   display: inline-block;
   flex-shrink: 0;
 }
-
 .cw {
   position: relative;
   height: 240px;
@@ -368,13 +365,11 @@ header {
   width: 100%;
   border-radius: 4px;
 }
-
 .tbl {
   width: 100%;
-  min-width: 700px;
+  min-width: 750px;
   border-collapse: collapse;
 }
-
 .tbl th {
   font-size: 0.63rem;
   font-weight: 800;
@@ -425,6 +420,10 @@ header {
   background: rgba(211, 84, 0, 0.11);
   color: #d35400;
 }
+.pill.mai {
+  background: rgba(22, 160, 133, 0.11);
+  color: #16a085;
+}
 
 /* ── FOOTER ──────────────────────────────── */
 footer {
@@ -442,7 +441,6 @@ footer span {
   color: var(--accent);
   font-weight: 700;
 }
-
 a {
   text-decoration: none;
 }
@@ -455,7 +453,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
   .month-row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -469,7 +467,6 @@ a {
   header {
     padding: 12px 16px;
   }
-
   .hd-divider {
     display: none;
   }
@@ -485,12 +482,11 @@ a {
     gap: 10px;
   }
   .month-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
   .g2 {
     grid-template-columns: 1fr;
   }
-
   .cw {
     height: 210px;
   }
@@ -508,20 +504,17 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .hd-logo {
     height: 34px;
   }
   .hd-text h1 {
     font-size: 0.82rem;
   }
-
   .period-pill {
     font-size: 0.7rem;
     padding: 6px 14px;
     align-self: flex-start;
   }
-
   .wrap {
     padding: 14px 10px;
   }
@@ -540,13 +533,16 @@ a {
     display: none;
   }
 
+  .month-row {
+    grid-template-columns: 1fr;
+  }
+
   .chart-card {
     padding: 14px 12px;
   }
   .chart-card h3 {
     font-size: 0.78rem;
   }
-
   .cw {
     height: 190px;
   }
@@ -567,7 +563,6 @@ a {
     padding: 8px 10px;
     font-size: 0.76rem;
   }
-
   footer {
     font-size: 0.67rem;
   }
