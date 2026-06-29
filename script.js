@@ -836,6 +836,163 @@ const MAI = [
 ];
 
 // ════════════════════════════════════════════════════
+// DADOS COMPLETOS — JUNHO
+// ════════════════════════════════════════════════════
+const JUN = [
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Windows", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Luiz" },
+  { cat: "Mapeamento", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Impressoras", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Hardware", fin: "Sim", h: 0.75, ana: "Luiz" },
+  { cat: "VPN", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Luiz" },
+  { cat: "Hardware", fin: "Sim", h: 0.75, ana: "Luiz" },
+  { cat: "Teams", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Luiz" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Monitor", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Luiz" },
+  { cat: "Impressoras", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Autodesk", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Instalação", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Devolução", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Devolução", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressoras", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Infra", fin: "Sim", h: 1.25, ana: "Guilherme" },
+  { cat: "Config. Inicial", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Internet", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Devolução", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Devolução", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Monitor", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Sienge", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Configurações", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Impressoras", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Internet", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Config. Inicial", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Teams", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "E-mail / Outlook", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressoras", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Monitor", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Config. Inicial", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "VPN", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Infra", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Devolução", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Active Directory (AD)", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Hardware", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Mapeamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "VPN", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Periféricos", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Acesso Remoto", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Active Directory (AD)", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Impressoras", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Periféricos", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "E-mail / Outlook", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "VPN", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Mapeamento", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Hardware", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Monitor", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Teams", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Periféricos", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Empréstimo", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Periféricos", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 1.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Hardware", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Periféricos", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Config. Inicial", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 4.0, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+];
+
+// ════════════════════════════════════════════════════
 // FUNÇÕES AUXILIARES
 // ════════════════════════════════════════════════════
 const sumH = (a) => +a.reduce((s, r) => s + r.h, 0).toFixed(1);
@@ -871,42 +1028,50 @@ const jT = JAN.length,
   fT = FEV.length,
   mT = MAR.length,
   aT = ABR.length,
-  maT = MAI.length;
-const total = jT + fT + mT + aT + maT;
+  maT = MAI.length,
+  juT = JUN.length;
+const total = jT + fT + mT + aT + maT + juT;
 
 const jFin = countFin(JAN, "Sim"),
   fFin = countFin(FEV, "Sim"),
   mFin = countFin(MAR, "Sim"),
   aFin = countFin(ABR, "Sim"),
-  maFin = countFin(MAI, "Sim");
+  maFin = countFin(MAI, "Sim"),
+  juFin = countFin(JUN, "Sim");
+
 const jNF = countFin(JAN, "Não"),
   fNF = countFin(FEV, "Não"),
   mNF = countFin(MAR, "Não"),
   aNF = countFin(ABR, "Não"),
-  maNF = countFin(MAI, "Não");
-const totalFin = jFin + fFin + mFin + aFin + maFin;
+  maNF = countFin(MAI, "Não"),
+  juNF = countFin(JUN, "Não");
+
+const totalFin = jFin + fFin + mFin + aFin + maFin + juFin;
 const taxa = Math.round((totalFin / total) * 100);
 
 const jH = sumH(JAN),
   fH = sumH(FEV),
   mH = sumH(MAR),
   aH = sumH(ABR),
-  maH = sumH(MAI);
-const totalH = +(jH + fH + mH + aH + maH).toFixed(1);
+  maH = sumH(MAI),
+  juH = sumH(JUN);
+const totalH = +(jH + fH + mH + aH + maH + juH).toFixed(1);
 
 const jCM = catMap(JAN),
   fCM = catMap(FEV),
   mCM = catMap(MAR),
   aCM = catMap(ABR),
-  maCM = catMap(MAI);
-const allCM = catMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI]);
+  maCM = catMap(MAI),
+  juCM = catMap(JUN);
+const allCM = catMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN]);
 
 const jAM = anaMap(JAN),
   fAM = anaMap(FEV),
   mAM = anaMap(MAR),
   aAM = anaMap(ABR),
-  maAM = anaMap(MAI);
-const allAM = anaMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI]);
+  maAM = anaMap(MAI),
+  juAM = anaMap(JUN);
+const allAM = anaMap([...JAN, ...FEV, ...MAR, ...ABR, ...MAI, ...JUN]);
 
 const top10 = topN(allCM, 10);
 const top6keys = topN(allCM, 6).map((e) => e[0]);
@@ -917,6 +1082,7 @@ const meses = [
   { n: "Março", v: mT },
   { n: "Abril", v: aT },
   { n: "Maio", v: maT },
+  { n: "Junho", v: juT },
 ];
 const topMes = [...meses].sort((a, b) => b.v - a.v)[0];
 
@@ -970,6 +1136,13 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["ma5", topKey(maAM)],
   ["ma6", topKey(maCM)],
   ["ma7", "20 dias"],
+  ["ju1", juT],
+  ["ju2", juFin],
+  ["ju3", juNF],
+  ["ju4", juH + "h"],
+  ["ju5", topKey(juAM)],
+  ["ju6", topKey(juCM)],
+  ["ju7", "22 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
   if (el) el.textContent = val;
@@ -988,17 +1161,18 @@ const fevC = "#8b5cf6";
 const marC = "#10d9a0";
 const abrC = "#d35400";
 const maiC = "#16a085";
+const junC = "#8e44ad"; // ADICIONADO
 
 // ─── VOLUME POR MÊS ──────────────────────────────
 new Chart(document.getElementById("cVolume"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
     datasets: [
       {
         label: "Chamados",
-        data: [jT, fT, mT, aT, maT],
-        backgroundColor: [janC, fevC, marC, abrC, maiC],
+        data: [jT, fT, mT, aT, maT, juT],
+        backgroundColor: [janC, fevC, marC, abrC, maiC, junC],
         borderRadius: 8,
         borderSkipped: false,
       },
@@ -1019,17 +1193,18 @@ new Chart(document.getElementById("cVolume"), {
 new Chart(document.getElementById("cHoras"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
     datasets: [
       {
         label: "Horas",
-        data: [jH, fH, mH, aH, maH],
+        data: [jH, fH, mH, aH, maH, juH],
         backgroundColor: [
           "rgba(245,200,66,.85)",
           "rgba(245,200,66,.65)",
           "rgba(245,200,66,.45)",
           "rgba(211,84,0,.75)",
           "rgba(22,160,133,.80)",
+          "rgba(142,68,173,.85)",
         ],
         borderRadius: 8,
         borderSkipped: false,
@@ -1088,7 +1263,7 @@ new Chart(document.getElementById("cCats"), {
 // ─── ANALISTAS — BARRAS CUSTOMIZADAS ─────────────
 const anaDiv = document.getElementById("anaDiv");
 const anaMax = Math.max(...Object.values(allAM));
-const anaColors = [janC, fevC, marC, abrC, maiC];
+const anaColors = [janC, fevC, marC, abrC, maiC, junC];
 let anaIdx = 0;
 
 Object.entries(allAM)
@@ -1111,18 +1286,18 @@ Object.entries(allAM)
 new Chart(document.getElementById("cStatus"), {
   type: "bar",
   data: {
-    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"],
+    labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
     datasets: [
       {
         label: "Finalizados",
-        data: [jFin, fFin, mFin, aFin, maFin],
+        data: [jFin, fFin, mFin, aFin, maFin, juFin],
         backgroundColor: marC,
         borderRadius: 6,
         borderSkipped: false,
       },
       {
         label: "Não Finalizados",
-        data: [jNF, fNF, mNF, aNF, maNF],
+        data: [jNF, fNF, mNF, aNF, maNF, juNF],
         backgroundColor: "#f4714a",
         borderRadius: 6,
         borderSkipped: false,
@@ -1144,7 +1319,7 @@ new Chart(document.getElementById("cStatus"), {
 
 // ─── PIZZA — TOP 6 CATEGORIAS ────────────────────
 const top6data = top6keys.map((k) => allCM[k] || 0);
-const pizzaColors = [janC, fevC, marC, abrC, maiC, "#38bdf8"];
+const pizzaColors = [janC, fevC, marC, abrC, maiC, junC]; // 6 cores para 6 categorias
 
 new Chart(document.getElementById("cPizza"), {
   type: "doughnut",
@@ -1214,6 +1389,13 @@ new Chart(document.getElementById("cCompare"), {
         borderRadius: 5,
         borderSkipped: false,
       },
+      {
+        label: "Junho",
+        data: top6keys.map((k) => juCM[k] || 0),
+        backgroundColor: junC,
+        borderRadius: 5,
+        borderSkipped: false,
+      },
     ],
   },
   options: {
@@ -1238,6 +1420,7 @@ new Chart(document.getElementById("cCompare"), {
       ...Object.keys(mCM),
       ...Object.keys(aCM),
       ...Object.keys(maCM),
+      ...Object.keys(juCM),
     ]),
   ];
 
@@ -1249,12 +1432,14 @@ new Chart(document.getElementById("cCompare"), {
       mar: mCM[cat] || 0,
       abr: aCM[cat] || 0,
       mai: maCM[cat] || 0,
+      jun: juCM[cat] || 0,
       tot:
         (jCM[cat] || 0) +
         (fCM[cat] || 0) +
         (mCM[cat] || 0) +
         (aCM[cat] || 0) +
-        (maCM[cat] || 0),
+        (maCM[cat] || 0) +
+        (juCM[cat] || 0),
     }))
     .sort((a, b) => b.tot - a.tot)
     .slice(0, 15);
@@ -1272,6 +1457,7 @@ new Chart(document.getElementById("cCompare"), {
         <th>Março</th>
         <th>Abril</th>
         <th>Maio</th>
+        <th>Junho</th>
         <th>Total</th>
         <th>Distribuição</th>
       </tr>
@@ -1288,6 +1474,7 @@ new Chart(document.getElementById("cCompare"), {
           <td>${r.mar > 0 ? `<span class="pill mar">${r.mar}</span>` : "—"}</td>
           <td>${r.abr > 0 ? `<span class="pill abr">${r.abr}</span>` : "—"}</td>
           <td>${r.mai > 0 ? `<span class="pill mai">${r.mai}</span>` : "—"}</td>
+          <td>${r.jun > 0 ? `<span class="pill jun">${r.jun}</span>` : "—"}</td>
           <td style="font-weight:800;color:var(--text)">${r.tot}</td>
           <td>
             <div style="background:var(--card2);border-radius:4px;height:6px;width:120px;overflow:hidden;display:inline-block;vertical-align:middle">
