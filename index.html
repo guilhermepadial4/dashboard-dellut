@@ -17,17 +17,17 @@
           <p>Acompanhamento de atendimentos · Equipe de Suporte Técnico</p>
         </div>
       </div>
-      <div class="period-pill">Período: <span>Janeiro — Junho 2026</span></div>
+      <div class="period-pill">Período: <span>Janeiro — Julho 2026</span></div>
     </header>
 
     <div class="wrap">
-      <div class="sec-label">Visão Geral do Semestre</div>
+      <div class="sec-label">Visão Geral (7 Meses)</div>
       <div class="kpi-row">
         <div class="kpi c1">
           <div class="kpi-ico">🎫</div>
           <div class="kpi-lbl">Total de Chamados</div>
           <div class="kpi-val" id="kTotal">—</div>
-          <div class="kpi-sub">Jan + Fev + Mar + Abr + Mai + Jun</div>
+          <div class="kpi-sub">Jan + Fev + Mar + Abr + Mai + Jun + Jul</div>
         </div>
 
         <div class="kpi c2">
@@ -41,7 +41,7 @@
           <div class="kpi-ico">⏱️</div>
           <div class="kpi-lbl">Horas Investidas</div>
           <div class="kpi-val" id="kHoras">—</div>
-          <div class="kpi-sub">soma dos 6 meses</div>
+          <div class="kpi-sub">soma dos 7 meses</div>
         </div>
 
         <div class="kpi c4">
@@ -225,31 +225,64 @@
           <div class="mcard-title">🗓 Junho</div>
           <div class="mstat">
             <span class="lbl">Total de chamados</span
-            ><span class="val" id="ju1">—</span>
+            ><span class="val" id="jun1">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Finalizados</span
-            ><span class="val" id="ju2">—</span>
+            ><span class="val" id="jun2">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Não finalizados</span
-            ><span class="val" id="ju3">—</span>
+            ><span class="val" id="jun3">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Horas gastas</span
-            ><span class="val" id="ju4">—</span>
+            ><span class="val" id="jun4">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Analista mais ativo</span
-            ><span class="val" id="ju5">—</span>
+            ><span class="val" id="jun5">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Categoria dominante</span
-            ><span class="val" id="ju6">—</span>
+            ><span class="val" id="jun6">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Dias atendidos</span
-            ><span class="val" id="ju7">—</span>
+            ><span class="val" id="jun7">—</span>
+          </div>
+        </div>
+
+        <!-- NOVO CARD: JULHO -->
+        <div class="mcard jul">
+          <div class="mcard-title">🗓 Julho</div>
+          <div class="mstat">
+            <span class="lbl">Total de chamados</span
+            ><span class="val" id="jul1">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Finalizados</span
+            ><span class="val" id="jul2">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Não finalizados</span
+            ><span class="val" id="jul3">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Horas gastas</span
+            ><span class="val" id="jul4">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Analista mais ativo</span
+            ><span class="val" id="jul5">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Categoria dominante</span
+            ><span class="val" id="jul6">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Dias atendidos</span
+            ><span class="val" id="jul7">—</span>
           </div>
         </div>
       </div>
@@ -277,7 +310,7 @@
         <div class="chart-card">
           <h3>
             <span class="dot" style="background: #f4714a"></span> Top 10
-            Categorias — Semestre
+            Categorias — Acumulado
           </h3>
           <div class="cw tall"><canvas id="cCats"></canvas></div>
         </div>
@@ -331,12 +364,13 @@
 
     <footer>
       Dashboard de Chamados · Dellut Engenharia ·
-      <span>Janeiro — Junho 2026</span><br />
+      <span>Janeiro — Julho 2026</span><br />
       Desenvolvido por
       <span
         ><a
           href="https://www.linkedin.com/in/guilhermepadial/"
           style="color: var(--accent)"
+          target="_blank"
           >Guilherme Padial</a
         ></span
       >
