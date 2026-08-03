@@ -1160,6 +1160,16 @@ const JUL = [
   { cat: "Windows", fin: "Sim", h: 1.25, ana: "Guilherme" },
   { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" }, 
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Hamilton" },
+  { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Hamilton" },  
 ];
 
 // ════════════════════════════════════════════════════

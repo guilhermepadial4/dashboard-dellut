@@ -16,7 +16,7 @@
   --abr: #d35400;
   --mai: #16a085;
   --jun: #8e44ad;
-  --jul: #e67e22; /* Nova cor para Julho */
+  --jul: #e67e22; /* Cor de Julho */
 }
 
 * {
@@ -201,7 +201,8 @@ header {
 /* ── MONTH CARDS ─────────────────────────── */
 .month-row {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 7 meses agora */
+  /* CORREÇÃO: 4 colunas! Quebra a linha e resolve o layout espremido */
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -233,7 +234,7 @@ header {
 }
 .mcard.jul {
   border-top-color: var(--jul);
-} /* ADICIONADO */
+}
 
 .mcard-title {
   font-size: 0.72rem;
@@ -262,7 +263,7 @@ header {
 }
 .mcard.jul .mcard-title {
   color: var(--jul);
-} /* ADICIONADO */
+}
 
 .mstat {
   display: flex;
@@ -445,7 +446,7 @@ header {
 .pill.jul {
   background: rgba(230, 126, 34, 0.11);
   color: var(--jul);
-} /* ADICIONADO */
+}
 
 /* ── FOOTER ──────────────────────────────── */
 footer {
@@ -475,7 +476,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
   .month-row {
-    grid-template-columns: repeat(4, 1fr); /* 7 meses melhor divididos aqui */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
