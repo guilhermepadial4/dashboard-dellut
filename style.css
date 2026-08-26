@@ -17,6 +17,7 @@
   --mai: #16a085;
   --jun: #8e44ad;
   --jul: #e67e22; /* Cor de Julho */
+  --ago: #e84393; /* Cor de Agosto */
 }
 
 * {
@@ -235,6 +236,9 @@ header {
 .mcard.jul {
   border-top-color: var(--jul);
 }
+.mcard.ago {
+  border-top-color: var(--ago);
+}
 
 .mcard-title {
   font-size: 0.72rem;
@@ -263,6 +267,9 @@ header {
 }
 .mcard.jul .mcard-title {
   color: var(--jul);
+}
+.mcard.ago .mcard-title {
+  color: var(--ago);
 }
 
 .mstat {
@@ -446,6 +453,10 @@ header {
 .pill.jul {
   background: rgba(230, 126, 34, 0.11);
   color: var(--jul);
+}
+.pill.ago {
+  background: rgba(232, 67, 147, 0.11);
+  color: var(--ago);
 }
 
 /* ── FOOTER ──────────────────────────────── */
