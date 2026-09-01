@@ -1281,6 +1281,29 @@ const AGO = [
   { cat: "Software", fin: "Sim", h: 0.75, ana: "Luiz" },
   { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
   { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
+  { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Autodesk", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Hardware", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 2.0, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Guilherme" },
 ];
 
 // ════════════════════════════════════════════════════
@@ -1479,7 +1502,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["ago4", agoH + "h"],
   ["ago5", topKey(agoAM)],
   ["ago6", topKey(agoCM)],
-  ["ago7", "18 dias"],
+  ["ago7", "21 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
   if (el) el.textContent = val;
