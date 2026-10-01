@@ -1706,7 +1706,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["set4", setH + "h"],
   ["set5", topKey(setAM)],
   ["set6", topKey(setCM)],
-  ["set7", "19 dias"],
+  ["set7", "21 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
   if (el) el.textContent = val;
