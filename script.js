@@ -1307,9 +1307,9 @@ const AGO = [
 ];
 
 const SET = [
-  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz Pelais" },
-  { cat: "Inventario", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Servidor", fin: "Sim", h: 0.25, ana: "Guilherme/Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Inventario", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Servidor", fin: "Sim", h: 0.25, ana: "Guilherme / Luiz" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
@@ -1335,12 +1335,12 @@ const SET = [
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "PfSense", fin: "Sim", h: 1, ana: "Guilherme" },
-  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Equipamento", fin: "Sim", h: 1, ana: "Luiz Pelais" },
-  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Outlook", fin: "Sim", h: 3, ana: "Guilherme/Hamilton/Luiz" },
-  { cat: "Onedrive", fin: "Sim", h: 0.4, ana: "Luiz Pelais" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Equipamento", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Outlook", fin: "Sim", h: 3, ana: "Guilherme / Hamilton / Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 0.4, ana: "Luiz" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Servidor", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
@@ -1355,7 +1355,7 @@ const SET = [
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Servidor", fin: "Sim", h: 3, ana: "Guilherme/Hamilton" },
+  { cat: "Servidor", fin: "Sim", h: 3, ana: "Guilherme / Hamilton" },
   { cat: "Windows", fin: "Sim", h: 3, ana: "Guilherme" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
@@ -1371,17 +1371,17 @@ const SET = [
   { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Software", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Luiz Pelais" },
-  { cat: "Onedrive", fin: "Sim", h: 0.5, ana: "Luiz Pelais" },
-  { cat: "Servidor", fin: "Sim", h: 0.5, ana: "Luiz Pelais" },
-  { cat: "Servidor", fin: "Sim", h: 0.5, ana: "Luiz Pelais" },
-  { cat: "Servidor", fin: "Sim", h: 0.5, ana: "Luiz Pelais" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Servidor", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Servidor", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Servidor", fin: "Sim", h: 0.5, ana: "Luiz" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Software", fin: "Sim", h: 5, ana: "Guilherme" },
@@ -1407,9 +1407,9 @@ const SET = [
   { cat: "xOne Cloud", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Servidor", fin: "Sim", h: 1, ana: "Guilherme" },
-  { cat: "Equipamento", fin: "Sim", h: 0.4, ana: "Luiz Pelais" },
-  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz Pelais" },
-  { cat: "Equipamento", fin: "Sim", h: 1, ana: "Luiz Pelais" },
+  { cat: "Equipamento", fin: "Sim", h: 0.4, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Equipamento", fin: "Sim", h: 1, ana: "Luiz" },
   { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
@@ -1451,16 +1451,16 @@ const SET = [
   { cat: "Outlook", fin: "Sim", h: 0.75, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme/Luiz" },
-  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Onedrive", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Onedrive", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
-  { cat: "Software", fin: "Sim", h: 0.25, ana: "Luiz Pelais" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme / Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Luiz" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
   { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
@@ -1479,6 +1479,186 @@ const SET = [
   { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" }
+];
+
+const OUT = [
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 1.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 3, ana: "Guilherme" },
+  { cat: "Desenvolvimento", fin: "Sim", h: 4, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Guilherme / Luiz" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Rede", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Outlook", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Assinatura", fin: "Sim", h: 3, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Servidor", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "AutoDesk", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Outlook", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 0.5, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "xOne Cloud", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "xOne Cloud", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "xOne Cloud", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "xOne Cloud", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Servidor", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Guilherme / Luiz" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Rede", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Onedrive", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "Equipamento", fin: "Sim", h: 0.4, ana: "Luiz" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Documentação", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Administrativo", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 2, ana: "Guilherme" },
+  { cat: "Rede", fin: "Sim", h: 0.25, ana: "Hamilton" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Servidor", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Impressora", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Luiz" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Active Directory", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Onedrive", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.5, ana: "Guilherme" },
+  { cat: "Software", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "VPN", fin: "Sim", h: 0.75, ana: "Guilherme" },
+  { cat: "Checklist", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Equipamento", fin: "Sim", h: 1, ana: "Guilherme" },
+  { cat: "Windows", fin: "Sim", h: 2, ana: "Guilherme" },
+  { cat: "SharePoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
+  { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" }
 ];
 
@@ -1523,8 +1703,9 @@ const jT = JAN.length,
   juT = JUN.length,
   julT = JUL.length,
   agoT = AGO.length,
-  setT = SET.length;
-const total = jT + fT + mT + aT + maT + juT + julT + agoT + setT;
+  setT = SET.length,
+  outT = OUT.length;
+const total = jT + fT + mT + aT + maT + juT + julT + agoT + setT + outT;
 
 const jFin = countFin(JAN, "Sim"),
   fFin = countFin(FEV, "Sim"),
@@ -1534,7 +1715,8 @@ const jFin = countFin(JAN, "Sim"),
   juFin = countFin(JUN, "Sim"),
   julFin = countFin(JUL, "Sim"),
   agoFin = countFin(AGO, "Sim"),
-  setFin = countFin(SET, "Sim");
+  setFin = countFin(SET, "Sim"),
+  outFin = countFin(OUT, "Sim");
 
 const jNF = countFin(JAN, "Não"),
   fNF = countFin(FEV, "Não"),
@@ -1544,10 +1726,11 @@ const jNF = countFin(JAN, "Não"),
   juNF = countFin(JUN, "Não"),
   julNF = countFin(JUL, "Não"),
   agoNF = countFin(AGO, "Não"),
-  setNF = countFin(SET, "Não");
+  setNF = countFin(SET, "Não"),
+  outNF = countFin(OUT, "Não");
 
 const totalFin =
-  jFin + fFin + mFin + aFin + maFin + juFin + julFin + agoFin + setFin;
+  jFin + fFin + mFin + aFin + maFin + juFin + julFin + agoFin + setFin + outFin;
 const taxa = Math.round((totalFin / total) * 100);
 
 const jH = sumH(JAN),
@@ -1558,7 +1741,8 @@ const jH = sumH(JAN),
   juH = sumH(JUN),
   julH = sumH(JUL),
   agoH = sumH(AGO),
-  setH = sumH(SET);
+  setH = sumH(SET),
+  outH = sumH(OUT);
 const totalH = +(
   jH +
   fH +
@@ -1568,7 +1752,8 @@ const totalH = +(
   juH +
   julH +
   agoH +
-  setH
+  setH +
+  outH
 ).toFixed(1);
 
 const jCM = catMap(JAN),
@@ -1579,7 +1764,8 @@ const jCM = catMap(JAN),
   juCM = catMap(JUN),
   julCM = catMap(JUL),
   agoCM = catMap(AGO),
-  setCM = catMap(SET);
+  setCM = catMap(SET),
+  outCM = catMap(OUT);
 const allCM = catMap([
   ...JAN,
   ...FEV,
@@ -1590,6 +1776,7 @@ const allCM = catMap([
   ...JUL,
   ...AGO,
   ...SET,
+  ...OUT,
 ]);
 
 const jAM = anaMap(JAN),
@@ -1600,7 +1787,8 @@ const jAM = anaMap(JAN),
   juAM = anaMap(JUN),
   julAM = anaMap(JUL),
   agoAM = anaMap(AGO),
-  setAM = anaMap(SET);
+  setAM = anaMap(SET),
+  outAM = anaMap(OUT);
 const allAM = anaMap([
   ...JAN,
   ...FEV,
@@ -1611,6 +1799,7 @@ const allAM = anaMap([
   ...JUL,
   ...AGO,
   ...SET,
+  ...OUT,
 ]);
 
 const top10 = topN(allCM, 10);
@@ -1626,6 +1815,7 @@ const meses = [
   { n: "Julho", v: julT },
   { n: "Agosto", v: agoT },
   { n: "Setembro", v: setT },
+  { n: "Outubro", v: outT },
 ];
 const topMes = [...meses].sort((a, b) => b.v - a.v)[0];
 
@@ -1707,6 +1897,13 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["set5", topKey(setAM)],
   ["set6", topKey(setCM)],
   ["set7", "21 dias"],
+  ["out1", outT],
+  ["out2", outFin],
+  ["out3", outNF],
+  ["out4", outH + "h"],
+  ["out5", topKey(outAM)],
+  ["out6", topKey(outCM)],
+  ["out7", "22 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
   if (el) el.textContent = val;
@@ -1729,6 +1926,7 @@ const junC = "#8e44ad";
 const julC = "#e67e22"; // Nova Cor de Julho
 const agoC = "#e84393"; // Nova Cor de Agosto
 const setC = "#2ecc71"; // Nova Cor de Setembro
+const outC = "#0abde3"; // Nova Cor de Outubro
 
 // ─── VOLUME POR MÊS ──────────────────────────────
 new Chart(document.getElementById("cVolume"), {
@@ -1744,11 +1942,12 @@ new Chart(document.getElementById("cVolume"), {
       "Julho",
       "Agosto",
       "Setembro",
+      "Outubro",
     ],
     datasets: [
       {
         label: "Chamados",
-        data: [jT, fT, mT, aT, maT, juT, julT, agoT, setT],
+        data: [jT, fT, mT, aT, maT, juT, julT, agoT, setT, outT],
         backgroundColor: [
           janC,
           fevC,
@@ -1759,6 +1958,7 @@ new Chart(document.getElementById("cVolume"), {
           julC,
           agoC,
           setC,
+          outC,
         ],
         borderRadius: 8,
         borderSkipped: false,
@@ -1790,11 +1990,12 @@ new Chart(document.getElementById("cHoras"), {
       "Julho",
       "Agosto",
       "Setembro",
+      "Outubro",
     ],
     datasets: [
       {
         label: "Horas",
-        data: [jH, fH, mH, aH, maH, juH, julH, agoH, setH],
+        data: [jH, fH, mH, aH, maH, juH, julH, agoH, setH, outH],
         backgroundColor: [
           "rgba(245,200,66,.85)",
           "rgba(245,200,66,.65)",
@@ -1805,6 +2006,7 @@ new Chart(document.getElementById("cHoras"), {
           "rgba(230,126,34,.85)",
           "rgba(232,67,147,.85)",
           "rgba(46,204,113,.85)",
+          "rgba(10,189,227,.85)",
         ],
         borderRadius: 8,
         borderSkipped: false,
@@ -1863,7 +2065,7 @@ new Chart(document.getElementById("cCats"), {
 // ─── ANALISTAS — BARRAS CUSTOMIZADAS ─────────────
 const anaDiv = document.getElementById("anaDiv");
 const anaMax = Math.max(...Object.values(allAM));
-const anaColors = [janC, fevC, marC, abrC, maiC, junC, julC, agoC, setC];
+const anaColors = [janC, fevC, marC, abrC, maiC, junC, julC, agoC, setC, outC];
 let anaIdx = 0;
 
 Object.entries(allAM)
@@ -1896,18 +2098,19 @@ new Chart(document.getElementById("cStatus"), {
       "Julho",
       "Agosto",
       "Setembro",
+      "Outubro",
     ],
     datasets: [
       {
         label: "Finalizados",
-        data: [jFin, fFin, mFin, aFin, maFin, juFin, julFin, agoFin, setFin],
+        data: [jFin, fFin, mFin, aFin, maFin, juFin, julFin, agoFin, setFin, outFin],
         backgroundColor: marC,
         borderRadius: 6,
         borderSkipped: false,
       },
       {
         label: "Não Finalizados",
-        data: [jNF, fNF, mNF, aNF, maNF, juNF, julNF, agoNF, setNF],
+        data: [jNF, fNF, mNF, aNF, maNF, juNF, julNF, agoNF, setNF, outNF],
         backgroundColor: "#f4714a",
         borderRadius: 6,
         borderSkipped: false,
@@ -2027,6 +2230,13 @@ new Chart(document.getElementById("cCompare"), {
         borderRadius: 5,
         borderSkipped: false,
       },
+      {
+        label: "Outubro",
+        data: top6keys.map((k) => outCM[k] || 0),
+        backgroundColor: outC,
+        borderRadius: 5,
+        borderSkipped: false,
+      },
     ],
   },
   options: {
@@ -2055,6 +2265,7 @@ new Chart(document.getElementById("cCompare"), {
       ...Object.keys(julCM),
       ...Object.keys(agoCM),
       ...Object.keys(setCM),
+      ...Object.keys(outCM),
     ]),
   ];
 
@@ -2070,6 +2281,7 @@ new Chart(document.getElementById("cCompare"), {
       jul: julCM[cat] || 0,
       ago: agoCM[cat] || 0,
       set: setCM[cat] || 0,
+      out: outCM[cat] || 0,
       tot:
         (jCM[cat] || 0) +
         (fCM[cat] || 0) +
@@ -2079,7 +2291,8 @@ new Chart(document.getElementById("cCompare"), {
         (juCM[cat] || 0) +
         (julCM[cat] || 0) +
         (agoCM[cat] || 0) +
-        (setCM[cat] || 0),
+        (setCM[cat] || 0) +
+        (outCM[cat] || 0),
     }))
     .sort((a, b) => b.tot - a.tot)
     .slice(0, 15);
@@ -2101,6 +2314,7 @@ new Chart(document.getElementById("cCompare"), {
         <th>Julho</th>
         <th>Agosto</th>
         <th>Setembro</th>
+        <th>Outubro</th>
         <th>Total</th>
         <th>Distribuição</th>
       </tr>
@@ -2122,6 +2336,7 @@ new Chart(document.getElementById("cCompare"), {
           <td>${r.jul > 0 ? `<span class="pill jul">${r.jul}</span>` : "—"}</td>
           <td>${r.ago > 0 ? `<span class="pill ago">${r.ago}</span>` : "—"}</td>
           <td>${r.set > 0 ? `<span class="pill set">${r.set}</span>` : "—"}</td>
+          <td>${r.out > 0 ? `<span class="pill out">${r.out}</span>` : "—"}</td>
 
           <td style="font-weight:800;color:var(--text)">${r.tot}</td>
           <td>
