@@ -1165,7 +1165,7 @@ const JUL = [
   { cat: "Sharepoint", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "Checklist", fin: "Sim", h: 1.0, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" }, 
+  { cat: "Admin Center", fin: "Sim", h: 0.5, ana: "Guilherme" },
   { cat: "Impressora", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 5, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Hamilton" },
@@ -1479,7 +1479,7 @@ const SET = [
   { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" }
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
 ];
 
 const OUT = [
@@ -1659,9 +1659,177 @@ const OUT = [
   { cat: "Windows", fin: "Sim", h: 2, ana: "Guilherme" },
   { cat: "Sharepoint", fin: "Sim", h: 0.25, ana: "Guilherme" },
   { cat: "Active Directory", fin: "Sim", h: 0.25, ana: "Guilherme" },
-  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" }
+  { cat: "Admin Center", fin: "Sim", h: 0.25, ana: "Guilherme" },
 ];
 
+// ════════════════════════════════════════════════════
+// DEPARTAMENTOS — chamados por departamento solicitante
+// Fonte: planilha "Dellut - Tarefas diárias", coluna DEPARTAMENTO
+// (abas Janeiro a Outubro de 2026). Para atualizar, ajuste as
+// contagens do mês abaixo.
+// ════════════════════════════════════════════════════
+// "Geral" e "TI" são rotinas da própria equipe de TI (checklists,
+// verificação de servidores etc.) — ficam fora do ranking.
+const DEPTO_EXCLUIR = ["Geral", "TI"];
+
+const DEPTOS = {
+  jan: {
+    Localizadas: 55,
+    Geral: 30,
+    Financeiro: 23,
+    Coordenação: 17,
+    Lineares: 14,
+    Liberações: 8,
+    Planejamento: 7,
+    Varredura: 4,
+    Topografia: 4,
+    Gerencia: 2,
+    GIS: 1,
+  },
+  fev: {
+    Geral: 19,
+    Localizadas: 17,
+    Lineares: 14,
+    Planejamento: 14,
+    Financeiro: 14,
+    Coordenação: 8,
+    Varredura: 6,
+    GIS: 5,
+    Liberações: 4,
+    Topografia: 3,
+    Diretoria: 2,
+    RH: 1,
+    Gerencia: 1,
+  },
+  mar: {
+    GIS: 46,
+    Geral: 29,
+    Liberações: 17,
+    Lineares: 16,
+    Gerencia: 15,
+    Planejamento: 14,
+    Localizadas: 13,
+    Financeiro: 13,
+    Coordenação: 9,
+    Varredura: 6,
+    RH: 6,
+    Topografia: 6,
+    TI: 3,
+    Diretoria: 1,
+  },
+  abr: {
+    Geral: 28,
+    Coordenação: 22,
+    Lineares: 11,
+    Gerencia: 10,
+    Localizadas: 9,
+    Liberações: 8,
+    RH: 7,
+    Financeiro: 7,
+    Varredura: 7,
+    Topografia: 3,
+    Planejamento: 2,
+    GIS: 1,
+  },
+  mai: {
+    Localizadas: 33,
+    Geral: 26,
+    Lineares: 20,
+    Financeiro: 13,
+    RH: 11,
+    Planejamento: 10,
+    GIS: 5,
+    Coordenação: 4,
+    Gerencia: 4,
+    Liberações: 3,
+    Topografia: 3,
+    Varredura: 2,
+    TI: 2,
+    Diretoria: 1,
+    "Dellut AI": 1,
+  },
+  jun: {
+    Geral: 29,
+    RH: 27,
+    Localizadas: 21,
+    Financeiro: 21,
+    Planejamento: 16,
+    Lineares: 14,
+    Varredura: 9,
+    Gerencia: 8,
+    Liberações: 7,
+    Coordenação: 5,
+    Topografia: 5,
+    GIS: 4,
+    Diretoria: 1,
+  },
+  jul: {
+    Geral: 30,
+    Localizadas: 28,
+    Planejamento: 17,
+    Lineares: 14,
+    Financeiro: 13,
+    Varredura: 13,
+    Topografia: 10,
+    RH: 8,
+    Liberações: 6,
+    Diretoria: 4,
+    GIS: 3,
+    Especialista: 1,
+    Marketing: 1,
+  },
+  ago: {
+    Geral: 27,
+    Liberações: 19,
+    Planejamento: 12,
+    Localizadas: 11,
+    Financeiro: 11,
+    GIS: 11,
+    Varredura: 8,
+    RH: 7,
+    Topografia: 6,
+    Diretoria: 5,
+    Lineares: 4,
+    Gerencia: 4,
+    Coordenação: 3,
+    TI: 2,
+    Marketing: 1,
+  },
+  set: {
+    Geral: 27,
+    Topografia: 18,
+    Lineares: 18,
+    Varredura: 16,
+    Planejamento: 15,
+    Gerencia: 15,
+    Localizadas: 14,
+    Financeiro: 11,
+    RH: 9,
+    TI: 8,
+    Liberações: 7,
+    Coordenação: 7,
+    Diretoria: 6,
+    Marketing: 2,
+  },
+  out: {
+    Lineares: 27,
+    Geral: 26,
+    RH: 21,
+    Gerencia: 17,
+    Localizadas: 17,
+    Financeiro: 12,
+    Topografia: 12,
+    Liberações: 11,
+    Planejamento: 9,
+    Coordenação: 8,
+    Diretoria: 6,
+    GIS: 4,
+    Varredura: 3,
+    Consultor: 2,
+    Terceiro: 1,
+    TI: 1,
+  },
+};
 
 // ════════════════════════════════════════════════════
 // FUNÇÕES AUXILIARES
@@ -1819,6 +1987,76 @@ const meses = [
 ];
 const topMes = [...meses].sort((a, b) => b.v - a.v)[0];
 
+// ─── DEPARTAMENTOS ───────────────────────────────
+const DEP_MES_KEYS = [
+  "jan",
+  "fev",
+  "mar",
+  "abr",
+  "mai",
+  "jun",
+  "jul",
+  "ago",
+  "set",
+  "out",
+];
+const DEP_MES_NOMES = [
+  "Janeiro",
+  "Fevereiro",
+  "Março",
+  "Abril",
+  "Maio",
+  "Junho",
+  "Julho",
+  "Agosto",
+  "Setembro",
+  "Outubro",
+];
+const DEP_PILL = {
+  jan: "jan",
+  fev: "feb",
+  mar: "mar",
+  abr: "abr",
+  mai: "mai",
+  jun: "jun",
+  jul: "jul",
+  ago: "ago",
+  set: "set",
+  out: "out",
+};
+const fmtBR = (n) => n.toLocaleString("pt-BR");
+
+// contagens por mês sem as rotinas internas da TI
+const depMes = {};
+let depExcluidos = 0;
+DEP_MES_KEYS.forEach((k) => {
+  depMes[k] = {};
+  Object.entries(DEPTOS[k] || {}).forEach(([dep, qtd]) => {
+    if (DEPTO_EXCLUIR.includes(dep)) depExcluidos += qtd;
+    else depMes[k][dep] = qtd;
+  });
+});
+
+const allDM = {};
+DEP_MES_KEYS.forEach((k) =>
+  Object.entries(depMes[k]).forEach(([dep, qtd]) => {
+    allDM[dep] = (allDM[dep] || 0) + qtd;
+  }),
+);
+const depRanking = topN(allDM, Object.keys(allDM).length);
+const depTotal = depRanking.reduce((soma, [, qtd]) => soma + qtd, 0);
+const depPct = (q) => ((q / depTotal) * 100).toFixed(1).replace(".", ",") + "%";
+
+// departamento(s) que mais abriram no mês — empate mostra os dois
+function depLideres(obj) {
+  const vals = Object.values(obj);
+  if (!vals.length) return "—";
+  const max = Math.max(...vals);
+  return Object.keys(obj)
+    .filter((d) => obj[d] === max)
+    .join(" / ");
+}
+
 // ════════════════════════════════════════════════════
 // PREENCHER KPIs
 // ════════════════════════════════════════════════════
@@ -1829,6 +2067,14 @@ document.getElementById("kMes").textContent = topMes.n;
 document.getElementById("kMesSub").textContent = topMes.v + " chamados";
 document.getElementById("kCat").textContent = top10[0][0];
 document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
+document.getElementById("kDep").textContent = depRanking[0][0];
+document.getElementById("kDepSub").textContent =
+  fmtBR(depRanking[0][1]) + " chamados (" + depPct(depRanking[0][1]) + ")";
+document.getElementById("depNote").textContent =
+  fmtBR(depTotal) +
+  " chamados abertos pelos departamentos de janeiro a outubro. Não entram " +
+  fmtBR(depExcluidos) +
+  " chamados de rotina da própria TI (Geral e TI).";
 
 // ════════════════════════════════════════════════════
 // PREENCHER CARDS MENSAIS
@@ -1840,6 +2086,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["j4", jH + "h"],
   ["j5", topKey(jAM)],
   ["j6", topKey(jCM)],
+  ["j8", depLideres(depMes.jan)],
   ["j7", "20 dias"],
   ["f1", fT],
   ["f2", fFin],
@@ -1847,6 +2094,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["f4", fH + "h"],
   ["f5", topKey(fAM)],
   ["f6", topKey(fCM)],
+  ["f8", depLideres(depMes.fev)],
   ["f7", "19 dias"],
   ["m1", mT],
   ["m2", mFin],
@@ -1854,6 +2102,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["m4", mH + "h"],
   ["m5", topKey(mAM)],
   ["m6", topKey(mCM)],
+  ["m8", depLideres(depMes.mar)],
   ["m7", "21 dias"],
   ["a1", aT],
   ["a2", aFin],
@@ -1861,6 +2110,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["a4", aH + "h"],
   ["a5", topKey(aAM)],
   ["a6", topKey(aCM)],
+  ["a8", depLideres(depMes.abr)],
   ["a7", "20 dias"],
   ["ma1", maT],
   ["ma2", maFin],
@@ -1868,6 +2118,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["ma4", maH + "h"],
   ["ma5", topKey(maAM)],
   ["ma6", topKey(maCM)],
+  ["ma8", depLideres(depMes.mai)],
   ["ma7", "20 dias"],
   ["jun1", juT],
   ["jun2", juFin],
@@ -1875,6 +2126,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["jun4", juH + "h"],
   ["jun5", topKey(juAM)],
   ["jun6", topKey(juCM)],
+  ["jun8", depLideres(depMes.jun)],
   ["jun7", "22 dias"],
   ["jul1", julT],
   ["jul2", julFin],
@@ -1882,6 +2134,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["jul4", julH + "h"],
   ["jul5", topKey(julAM)],
   ["jul6", topKey(julCM)],
+  ["jul8", depLideres(depMes.jul)],
   ["jul7", "24 dias"],
   ["ago1", agoT],
   ["ago2", agoFin],
@@ -1889,6 +2142,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["ago4", agoH + "h"],
   ["ago5", topKey(agoAM)],
   ["ago6", topKey(agoCM)],
+  ["ago8", depLideres(depMes.ago)],
   ["ago7", "21 dias"],
   ["set1", setT],
   ["set2", setFin],
@@ -1896,6 +2150,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["set4", setH + "h"],
   ["set5", topKey(setAM)],
   ["set6", topKey(setCM)],
+  ["set8", depLideres(depMes.set)],
   ["set7", "21 dias"],
   ["out1", outT],
   ["out2", outFin],
@@ -1903,6 +2158,7 @@ document.getElementById("kCatSub").textContent = top10[0][1] + " ocorrências";
   ["out4", outH + "h"],
   ["out5", topKey(outAM)],
   ["out6", topKey(outCM)],
+  ["out8", depLideres(depMes.out)],
   ["out7", "22 dias"],
 ].forEach(([id, val]) => {
   const el = document.getElementById(id);
@@ -2103,7 +2359,18 @@ new Chart(document.getElementById("cStatus"), {
     datasets: [
       {
         label: "Finalizados",
-        data: [jFin, fFin, mFin, aFin, maFin, juFin, julFin, agoFin, setFin, outFin],
+        data: [
+          jFin,
+          fFin,
+          mFin,
+          aFin,
+          maFin,
+          juFin,
+          julFin,
+          agoFin,
+          setFin,
+          outFin,
+        ],
         backgroundColor: marC,
         borderRadius: 6,
         borderSkipped: false,
@@ -2342,6 +2609,140 @@ new Chart(document.getElementById("cCompare"), {
           <td>
             <div style="background:var(--card2);border-radius:4px;height:6px;width:120px;overflow:hidden;display:inline-block;vertical-align:middle">
               <div style="height:100%;width:${Math.round((r.tot / maxTot) * 100)}%;background:var(--accent);border-radius:4px"></div>
+            </div>
+          </td>
+        </tr>`,
+        )
+        .join("")}
+    </tbody>`;
+})();
+
+// ════════════════════════════════════════════════════
+// DEPARTAMENTOS — GRÁFICOS E TABELA
+// ════════════════════════════════════════════════════
+
+// ─── TOP 10 DEPARTAMENTOS (ACUMULADO) ────────────
+const depTop10 = depRanking.slice(0, 10);
+new Chart(document.getElementById("cDeptos"), {
+  type: "bar",
+  data: {
+    labels: depTop10.map((e) => e[0]),
+    datasets: [
+      {
+        label: "Chamados",
+        data: depTop10.map((e) => e[1]),
+        backgroundColor: "#9b1b1b",
+        hoverBackgroundColor: "#7a1414",
+        borderRadius: 6,
+        borderSkipped: false,
+      },
+    ],
+  },
+  options: {
+    indexAxis: "y",
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: (c) => ` ${fmtBR(c.raw)} chamados (${depPct(c.raw)} do total)`,
+        },
+      },
+    },
+    scales: {
+      x: { grid: { color: grid }, beginAtZero: true },
+      y: { grid: { display: false }, ticks: { font: { size: 11 } } },
+    },
+  },
+});
+
+// ─── TOP 5 DEPARTAMENTOS — EVOLUÇÃO MENSAL ───────
+// Cada departamento mantém sempre a mesma cor (paleta validada para daltonismo).
+// Se outro departamento entrar no Top 5, ele recebe uma cor livre da paleta.
+const depTop5 = depRanking.slice(0, 5).map((e) => e[0]);
+const depPaleta = ["#9b1b1b", "#2980b9", "#d4880a", "#16a085", "#8e44ad"];
+const depCorFixa = {
+  Localizadas: "#9b1b1b",
+  Lineares: "#2980b9",
+  Financeiro: "#d4880a",
+  Planejamento: "#16a085",
+  RH: "#8e44ad",
+};
+const depCoresLivres = depPaleta.filter(
+  (c) => !depTop5.some((d) => depCorFixa[d] === c),
+);
+const depTop5Cores = depTop5.map(
+  (d) => depCorFixa[d] || depCoresLivres.shift(),
+);
+
+new Chart(document.getElementById("cDeptosMes"), {
+  type: "line",
+  data: {
+    labels: DEP_MES_NOMES,
+    datasets: depTop5.map((dep, i) => ({
+      label: dep,
+      data: DEP_MES_KEYS.map((k) => depMes[k][dep] || 0),
+      borderColor: depTop5Cores[i],
+      backgroundColor: depTop5Cores[i],
+      borderWidth: 2,
+      pointRadius: 4,
+      pointHoverRadius: 6,
+      pointBorderColor: "#ffffff",
+      pointBorderWidth: 2,
+      tension: 0.3,
+    })),
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: "index", intersect: false },
+    plugins: {
+      legend: { display: true, labels: { color: "#7880a0", boxWidth: 12 } },
+      tooltip: {
+        callbacks: { label: (c) => ` ${c.dataset.label}: ${c.raw} chamados` },
+      },
+    },
+    scales: {
+      x: { grid: { color: grid } },
+      y: { grid: { color: grid }, beginAtZero: true },
+    },
+  },
+});
+
+// ─── TABELA: DETALHAMENTO POR DEPARTAMENTO ───────
+(function buildDepTable() {
+  const tbl = document.getElementById("depTbl");
+  if (!tbl || !depRanking.length) return;
+  const maxTot = depRanking[0][1];
+
+  tbl.innerHTML = `
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Departamento</th>
+        ${DEP_MES_NOMES.map((n) => `<th>${n}</th>`).join("")}
+        <th>Total</th>
+        <th>% do total</th>
+        <th>Distribuição</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${depRanking
+        .map(
+          ([dep, tot], i) => `
+        <tr>
+          <td class="rank">${i + 1}</td>
+          <td class="name">${dep}</td>
+          ${DEP_MES_KEYS.map((k) => {
+            const q = depMes[k][dep] || 0;
+            return `<td>${q > 0 ? `<span class="pill ${DEP_PILL[k]}">${q}</span>` : "—"}</td>`;
+          }).join("")}
+          <td class="tot">${tot}</td>
+          <td class="share">${depPct(tot)}</td>
+          <td>
+            <div class="dist-track">
+              <div class="dist-fill" style="width:${Math.round((tot / maxTot) * 100)}%"></div>
             </div>
           </td>
         </tr>`,

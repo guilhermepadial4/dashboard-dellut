@@ -14,7 +14,7 @@
         <div class="hd-divider"></div>
         <div class="hd-text">
           <h1>Dashboard de Chamados — TI</h1>
-          <p>Acompanhamento de atendimentos · Equipe de Suporte Técnico</p>
+          <p>Acompanhamento de atendimentos por categoria e departamento · Equipe de Suporte Técnico</p>
         </div>
       </div>
       <div class="period-pill">Período: <span>Janeiro — Outubro 2026</span></div>
@@ -54,8 +54,15 @@
         <div class="kpi c5">
           <div class="kpi-ico">🏷️</div>
           <div class="kpi-lbl">Categoria #1</div>
-          <div class="kpi-val" id="kCat">—</div>
+          <div class="kpi-val txt" id="kCat">—</div>
           <div class="kpi-sub" id="kCatSub">—</div>
+        </div>
+
+        <div class="kpi c6">
+          <div class="kpi-ico">🏢</div>
+          <div class="kpi-lbl">Departamento #1</div>
+          <div class="kpi-val txt" id="kDep">—</div>
+          <div class="kpi-sub" id="kDepSub">—</div>
         </div>
       </div>
 
@@ -86,6 +93,10 @@
           <div class="mstat">
             <span class="lbl">Categoria dominante</span
             ><span class="val" id="j6">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="j8">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Dias atendidos</span
@@ -120,6 +131,10 @@
             ><span class="val" id="f6">—</span>
           </div>
           <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="f8">—</span>
+          </div>
+          <div class="mstat">
             <span class="lbl">Dias atendidos</span
             ><span class="val" id="f7">—</span>
           </div>
@@ -150,6 +165,10 @@
           <div class="mstat">
             <span class="lbl">Categoria dominante</span
             ><span class="val" id="m6">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="m8">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Dias atendidos</span
@@ -184,6 +203,10 @@
             ><span class="val" id="a6">—</span>
           </div>
           <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="a8">—</span>
+          </div>
+          <div class="mstat">
             <span class="lbl">Dias atendidos</span
             ><span class="val" id="a7">—</span>
           </div>
@@ -216,6 +239,10 @@
             ><span class="val" id="ma6">—</span>
           </div>
           <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="ma8">—</span>
+          </div>
+          <div class="mstat">
             <span class="lbl">Dias atendidos</span
             ><span class="val" id="ma7">—</span>
           </div>
@@ -246,6 +273,10 @@
           <div class="mstat">
             <span class="lbl">Categoria dominante</span
             ><span class="val" id="jun6">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="jun8">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Dias atendidos</span
@@ -281,6 +312,10 @@
             ><span class="val" id="jul6">—</span>
           </div>
           <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="jul8">—</span>
+          </div>
+          <div class="mstat">
             <span class="lbl">Dias atendidos</span
             ><span class="val" id="jul7">—</span>
           </div>
@@ -312,6 +347,10 @@
           <div class="mstat">
             <span class="lbl">Categoria dominante</span
             ><span class="val" id="ago6">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="ago8">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Dias atendidos</span
@@ -347,6 +386,10 @@
             ><span class="val" id="set6">—</span>
           </div>
           <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="set8">—</span>
+          </div>
+          <div class="mstat">
             <span class="lbl">Dias atendidos</span
             ><span class="val" id="set7">—</span>
           </div>
@@ -378,6 +421,10 @@
           <div class="mstat">
             <span class="lbl">Categoria dominante</span
             ><span class="val" id="out6">—</span>
+          </div>
+          <div class="mstat">
+            <span class="lbl">Depto. que mais abriu</span
+            ><span class="val" id="out8">—</span>
           </div>
           <div class="mstat">
             <span class="lbl">Dias atendidos</span
@@ -446,6 +493,38 @@
             Categorias — Comparativo Mensal
           </h3>
           <div class="cw tall"><canvas id="cCompare"></canvas></div>
+        </div>
+      </div>
+
+      <div class="sec-label">Departamentos que mais abrem chamados</div>
+      <p class="sec-note" id="depNote">—</p>
+
+      <div class="g2">
+        <div class="chart-card">
+          <h3>
+            <span class="dot" style="background: #9b1b1b"></span> Top 10
+            Departamentos — Acumulado
+          </h3>
+          <div class="cw tall"><canvas id="cDeptos"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>
+            <span class="dot" style="background: #2980b9"></span> Top 5
+            Departamentos — Evolução Mensal
+          </h3>
+          <div class="cw tall"><canvas id="cDeptosMes"></canvas></div>
+        </div>
+      </div>
+
+      <div class="g1">
+        <div class="chart-card">
+          <h3>
+            <span class="dot" style="background: #9b1b1b"></span> Detalhamento
+            por Departamento e Mês
+          </h3>
+          <div class="tbl-wrap">
+            <table class="tbl" id="depTbl"></table>
+          </div>
         </div>
       </div>
 

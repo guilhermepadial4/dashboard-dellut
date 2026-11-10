@@ -114,7 +114,7 @@ header {
 /* ── KPI CARDS ───────────────────────────── */
 .kpi-row {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 14px;
   margin-bottom: 24px;
 }
@@ -158,6 +158,9 @@ header {
 .kpi.c5::after {
   background: #7d3c98;
 }
+.kpi.c6::after {
+  background: #16a085;
+}
 
 .kpi-lbl {
   font-size: 0.65rem;
@@ -199,6 +202,24 @@ header {
 }
 .kpi.c5 .kpi-val {
   color: #7d3c98;
+}
+.kpi.c6 .kpi-val {
+  color: #138d75;
+}
+/* valores em texto (categoria, departamento) */
+.kpi-val.txt {
+  font-size: 1.35rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── NOTA DE SEÇÃO ───────────────────────── */
+.sec-note {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin: -4px 0 12px 13px;
 }
 
 /* ── MONTH CARDS ─────────────────────────── */
@@ -481,6 +502,37 @@ header {
   color: var(--out);
 }
 
+/* ── TABELA DE DEPARTAMENTOS ─────────────── */
+.tbl .rank {
+  color: var(--muted);
+  font-weight: 800;
+}
+.tbl .name {
+  font-weight: 600;
+}
+.tbl .tot {
+  font-weight: 800;
+  color: var(--text);
+}
+.tbl .share {
+  color: var(--muted);
+  white-space: nowrap;
+}
+.dist-track {
+  background: var(--card2);
+  border-radius: 4px;
+  height: 6px;
+  width: 120px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.dist-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+}
+
 /* ── FOOTER ──────────────────────────────── */
 footer {
   text-align: center;
@@ -584,6 +636,12 @@ a {
   }
   .kpi-val {
     font-size: 1.55rem;
+  }
+  .kpi-val.txt {
+    font-size: 1.1rem;
+  }
+  .sec-note {
+    margin-left: 0;
   }
   .kpi-ico {
     display: none;
